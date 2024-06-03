@@ -1,2 +1,4 @@
 #!/bin/sh
+newsboat_path=$(pwd)
 alias newsboat=newsbeuter $1 $2 $3 $4 $5 $6 $7 $8 $9
+alias getnews="newsbeuter -u $newsboat_path/rssurl"
